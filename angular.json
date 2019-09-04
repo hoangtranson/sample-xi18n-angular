@@ -57,6 +57,14 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "vi": {
+              "aot": true,
+              "i18nFile": "src/locale/messages.vi.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "vi",
+              "i18nMissingTranslation": "error",
+              "baseHref": "/vi/"
             }
           }
         },
@@ -68,6 +76,9 @@
           "configurations": {
             "production": {
               "browserTarget": "sample-xi18n-angular:build:production"
+            },
+            "vi": {
+              "browserTarget": "sample-xi18n-angular:build:vi"
             }
           }
         },

@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="8def8481e91291a52f9baa31cbdb313e6a6ca02b" datatype="html">
         <source>Hello i18n!</source>
+        <target> xin chao </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="ba0cc104d3d69bf669f97b8d96a4c5d8d9559aa3" datatype="html">
         <source>I don&apos;t output any element</source>
+        <target>khong co phan tu nao</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">6</context>
@@ -18,6 +20,7 @@
       </trans-unit>
       <trans-unit id="d69f6b42305f49332026fef24b40227f02e34594" datatype="html">
         <source>Updated <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <target>Cap nhap <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">9</context>
@@ -25,6 +28,7 @@
       </trans-unit>
       <trans-unit id="5a134dee893586d02bffc9611056b9cadf9abfad" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</source>
+        <target>{VAR_PLURAL, plural, =0 {bay gio} =1 {1 phut truoc} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">9</context>
@@ -32,6 +36,7 @@
       </trans-unit>
       <trans-unit id="701174153757adf13e7c24a248c8a873ac9f5193" datatype="html">
         <source>Angular logo</source>
+        <target>Angular logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">11</context>
